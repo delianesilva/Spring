@@ -1,0 +1,52 @@
+
+/*Configurações previas usando seletor universal*/
+*{
+    margin:0;
+    padding:0;		
+}
+
+
+/*Configurando o menu vertical*/
+.menu{
+    list-style-type:none;
+    background: yellow;
+}
+
+.menu > li{
+    display:table-row;
+
+}
+
+.menu li a{
+    color:grey;
+    text-decoration:none;	
+    padding:5px 10px;
+    display:block;
+    border:1px solid lightgrey;
+    width:130px;
+}
+
+.menu li ul{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    position:relative;
+    display:none;
+}
+
+.menu li ul li{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    width:150px;
+}
+.menu li a:hover{
+    background:#005e91;
+    color:#Ecb380;
+    text-shadow:0px 0px 10px #Ecb380;
+}
+
+.menu li:hover ul{
+    display:block;	
+}
+

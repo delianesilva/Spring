@@ -1,0 +1,327 @@
+
+/*Configurações previas usando seletor universal*/
+*{
+    margin:0;
+    padding:0;		
+}
+/*Configurações previas na tag body*/
+body{
+    font-family:arial,helvetica,sans-serif;
+    font-size:12px;	
+}
+
+footer{
+    clear: left;
+}
+
+footer object{
+    width: 100%;
+
+}
+fieldset{
+    width: 70%;
+    margin-left: 10%;
+}
+
+table{
+    width:100%;
+    text-align:center;
+}
+
+form table{
+    width:20%;	
+}
+
+header{
+    border: 1px solid black;
+    position:relative;
+    background-color:#E9F0DF;
+}
+
+section,aside{
+    float: left;	
+    margin:0px 1px;	
+    background-color:#E9F0DF;
+}
+
+input[type = "text"],input[type = "email"],input[type = "password"] {
+    width:200px;
+    height:30px;
+}
+
+h1,h2,h3{	
+    text-align:center;
+}
+
+p{	
+    text-align:justify;
+    margin-left: 20%;
+}
+
+aside object{
+    border: 1px solid black;
+    width: 100%;
+}
+
+.image,a img{
+    width: 200px;
+    height: 160px;
+}
+
+input[type = "submit"], input[type = "button"]{
+
+    background: #080808;
+    background-image: -webkit-linear-gradient(top, #080808, #5caadb);
+    background-image: -moz-linear-gradient(top, #080808, #5caadb);
+    background-image: -ms-linear-gradient(top, #080808, #5caadb);
+    background-image: -o-linear-gradient(top, #080808, #5caadb);
+    background-image: linear-gradient(to bottom, #080808, #5caadb);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+}
+
+
+input[type = "submit"]:hover,  input[type = "button"]:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+input[type = "submit"], input[type = "button"]{
+    text-decoration: none;
+}
+
+
+input[type = "search"] {
+    width:150px;
+    height: 20px;
+
+}
+
+#tabprincipal{	
+    width: 100%;
+
+}
+
+#tabprincipal tr td{	
+    height:400px;
+
+}
+#tabprincipal object{	
+    width: 100%;
+    height: 100%;
+}
+
+
+#lado{
+    width: 13%;
+}
+#navH{
+    position: absolute;	
+    width: 500px;
+    left:50%;	
+    left:40%;
+    top:75%;
+
+}
+#secnav{
+    width: 11%;
+}
+
+#secnav iframe{
+    width: 11%;
+}
+
+#mapaContato{
+    width:70%; 
+    height:70%; 
+    border:none;
+
+}
+
+.alinhamento{
+    text-align: justify;
+}
+
+.frameacesso{
+    width: 60%;
+    height: 100%;
+
+}
+.framemenu{
+
+
+}
+.cabecalhoTh{
+
+    font-size: 30px;
+    color: #005e91;
+    font-style: oblique;
+}
+
+.tabeladetalhe{
+    width: 50%;
+    margin: auto;
+}
+
+.imglogo{
+    width: 30%;
+    height:30%;
+    float:left;
+}
+
+.nav1{
+    width: 100%;
+    height: 300px;
+}
+
+
+.nav1 object{
+    width: 98%;
+    height: 200px;
+}
+
+.secprinc{
+    border:1px solid black;	
+    background-color:#E9F0DF;
+    width:75%;
+    height:800px;
+}
+
+.frame{	
+    border:none;
+    width:100%;
+    height:100%;
+}
+.tabelaCarrinho{
+    width:50%;
+    margin: auto;
+
+}
+
+.tabelaContatoMensagem{
+    border:none;
+    width: 50%;
+    margin:auto;
+}
+
+.tabelaCliente{
+   border:none;
+    width: 70%;
+    margin:auto; 
+    
+}
+
+.tabelaProduto td,tr{
+   border:none;
+    width: 95%;
+    margin-left: 5px; 
+    
+    
+}
+
+
+.tabelaContato{
+    border:none;
+    text-align:left;
+}
+
+
+
+/*Configurando o menu vertical*/
+.menu{
+    list-style-type:none;
+}
+
+.menu > li{
+    display:table-row;
+
+}
+
+.menu li a{
+    color:grey;
+    text-decoration:none;	
+    padding:5px 10px;
+    display:block;
+    border:1px solid lightgrey;
+    width:130px;
+}
+
+.menu li ul{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    position:relative;
+    display:none;
+}
+
+.menu li ul li{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    width:150px;
+}
+.menu li a:hover{
+    background:#005e91;
+    color:#Ecb380;
+    text-shadow:0px 0px 10px #Ecb380;
+}
+
+.menu li:hover ul{
+    display:block;	
+}
+
+
+/*Configurando menu horizontal*/
+
+.menuh{
+    list-style-type:none;
+}
+
+.menuh > li{
+    display:table-cell;
+    border:1px solid lightgrey;
+
+
+}
+
+.menuh li a{
+    color:grey;
+    text-decoration:none;	
+    padding:5px 10px;
+    display:block;
+}
+
+
+.menuh li ul{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    position:absolute;
+    display:none;
+}
+
+.menuh li ul li{
+    list-style-type:none;
+    border: 1px solid lightgray;
+    background-color:whitesmoke;
+    width:150px;
+}
+.menuh li a:hover{
+    background:#005e91;
+    color:#Ecb380;
+    text-shadow:0px 0px 10px #Ecb380;
+}
+
+.menuh li:hover ul{
+    display:block;	
+}
